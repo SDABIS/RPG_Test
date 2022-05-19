@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7740956d992481a6393372644f6f76ad, type: 3}
+  m_Name: Fighter
+  m_EditorClassIdentifier: 
+  levelUps:
+  - expToNext: 50
+    maxHealth: 100
+    maxMana: 100
+    strength: 2
+    defense: 3
+    speed: 1
+  - expToNext: 50
+    maxHealth: 150
+    maxMana: 150
+    strength: 3
+    defense: 4
+    speed: 2
+  - expToNext: 50
+    maxHealth: 220
+    maxMana: 220
+    strength: 7
+    defense: 5
+    speed: 3
+  - expToNext: 50
+    maxHealth: 250
+    maxMana: 250
+    strength: 15
+    defense: 6
+    speed: 4
+  - expToNext: 50
+    maxHealth: 300
+    maxMana: 300
+    strength: 18
+    defense: 7
+    speed: 5
+  _battleCharacter: {fileID: 5167298292711517701, guid: 9ad6707de39b7bb929fc84924ead08c3, type: 3}
+  _actions:
+  - {fileID: 11400000, guid: 96905b356cf22e7e1ab264ab74468fd5, type: 2}
+  _spells: []
+  initialLevel: 3

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a460d5ea415414d88abfe2c989be524e, type: 3}
+  m_Name: Behemoth
+  m_EditorClassIdentifier: 
+  levelUps:
+  - expToNext: 50
+    maxHealth: 100
+    maxMana: 100
+    strength: 1
+    defense: 1
+    speed: 6
+  _battleCharacter: {fileID: 764107541855689115, guid: b47f36202fec33fcfa6bf00f5c6b820a, type: 3}
+  _actions:
+  - {fileID: 11400000, guid: 96905b356cf22e7e1ab264ab74468fd5, type: 2}
+  _spells: []
+  initialLevel: 1
+  moneyReward: 100
+  expReward: 800
+  itemReward: []
